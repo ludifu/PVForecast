@@ -1,5 +1,9 @@
 name: Docker Image CI
 
+on:
+  workflow_dispatch:
+ 
+ 
 jobs:
   docker:
     runs-on: ubuntu-latest
